@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE68726615633DDB008165CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE68726515633DDB008165CF /* QuartzCore.framework */; };
+		CE68726F15634528008165CF /* deletbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE68726E15634528008165CF /* deletbutton.png */; };
 		CE91F06A15623B2B005C358F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06915623B2B005C358F /* UIKit.framework */; };
 		CE91F06C15623B2B005C358F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06B15623B2B005C358F /* Foundation.framework */; };
 		CE91F06E15623B2C005C358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE91F06D15623B2B005C358F /* CoreGraphics.framework */; };
@@ -15,22 +17,35 @@
 		CE91F07A15623B2C005C358F /* BUPOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F07915623B2C005C358F /* BUPOAppDelegate.m */; };
 		CE91F07D15623B2C005C358F /* BUPOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F07C15623B2C005C358F /* BUPOViewController.m */; };
 		CE91F08015623B2C005C358F /* BUPOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE91F07E15623B2C005C358F /* BUPOViewController.xib */; };
+		CE91F08815623C89005C358F /* backgound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE91F08715623C89005C358F /* backgound.jpg */; };
+		CE91F08A15623DFA005C358F /* blueButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE91F08915623DFA005C358F /* blueButton.jpg */; };
+		CE91F08E15624C07005C358F /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91F08D15624C07005C358F /* icon1.png */; };
+		CE91F09015624C0C005C358F /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91F08F15624C0C005C358F /* icon2.png */; };
+		CE91F0B215629062005C358F /* BJGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91F0B115629062005C358F /* BJGridItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE68726515633DDB008165CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE68726E15634528008165CF /* deletbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletbutton.png; sourceTree = "<group>"; };
 		CE91F06515623B2B005C358F /* ZakerLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZakerLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE91F06915623B2B005C358F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE91F06B15623B2B005C358F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE91F06D15623B2B005C358F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE91F07115623B2C005C358F /* ZakerLike-Info.plist */ = {isa = PBXFileReference; path = "ZakerLike-Info.plist"; sourceTree = "<group>"; };
+		CE91F07115623B2C005C358F /* ZakerLike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZakerLike-Info.plist"; sourceTree = "<group>"; };
 		CE91F07315623B2C005C358F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE91F07515623B2C005C358F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE91F07715623B2C005C358F /* ZakerLike-Prefix.pch */ = {isa = PBXFileReference; path = "ZakerLike-Prefix.pch"; sourceTree = "<group>"; };
-		CE91F07815623B2C005C358F /* BUPOAppDelegate.h */ = {isa = PBXFileReference; path = BUPOAppDelegate.h; sourceTree = "<group>"; };
+		CE91F07715623B2C005C358F /* ZakerLike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZakerLike-Prefix.pch"; sourceTree = "<group>"; };
+		CE91F07815623B2C005C358F /* BUPOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUPOAppDelegate.h; sourceTree = "<group>"; };
 		CE91F07915623B2C005C358F /* BUPOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUPOAppDelegate.m; sourceTree = "<group>"; };
-		CE91F07B15623B2C005C358F /* BUPOViewController.h */ = {isa = PBXFileReference; path = BUPOViewController.h; sourceTree = "<group>"; };
+		CE91F07B15623B2C005C358F /* BUPOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUPOViewController.h; sourceTree = "<group>"; };
 		CE91F07C15623B2C005C358F /* BUPOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUPOViewController.m; sourceTree = "<group>"; };
 		CE91F07F15623B2C005C358F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BUPOViewController.xib; sourceTree = "<group>"; };
+		CE91F08715623C89005C358F /* backgound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgound.jpg; sourceTree = "<group>"; };
+		CE91F08915623DFA005C358F /* blueButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueButton.jpg; sourceTree = "<group>"; };
+		CE91F08D15624C07005C358F /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = ../../icon1.png; sourceTree = "<group>"; };
+		CE91F08F15624C0C005C358F /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = ../../icon2.png; sourceTree = "<group>"; };
+		CE91F0B015629062005C358F /* BJGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJGridItem.h; sourceTree = "<group>"; };
+		CE91F0B115629062005C358F /* BJGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJGridItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68726615633DDB008165CF /* QuartzCore.framework in Frameworks */,
 				CE91F06A15623B2B005C358F /* UIKit.framework in Frameworks */,
 				CE91F06C15623B2B005C358F /* Foundation.framework in Frameworks */,
 				CE91F06E15623B2C005C358F /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,7 @@
 		CE91F05A15623B2B005C358F = {
 			isa = PBXGroup;
 			children = (
+				CE68726515633DDB008165CF /* QuartzCore.framework */,
 				CE91F06F15623B2C005C358F /* ZakerLike */,
 				CE91F06815623B2B005C358F /* Frameworks */,
 				CE91F06615623B2B005C358F /* Products */,
@@ -77,12 +94,15 @@
 		CE91F06F15623B2C005C358F /* ZakerLike */ = {
 			isa = PBXGroup;
 			children = (
+				CE91F08615623C89005C358F /* images */,
 				CE91F07815623B2C005C358F /* BUPOAppDelegate.h */,
 				CE91F07915623B2C005C358F /* BUPOAppDelegate.m */,
 				CE91F07B15623B2C005C358F /* BUPOViewController.h */,
 				CE91F07C15623B2C005C358F /* BUPOViewController.m */,
 				CE91F07E15623B2C005C358F /* BUPOViewController.xib */,
 				CE91F07015623B2C005C358F /* Supporting Files */,
+				CE91F0B015629062005C358F /* BJGridItem.h */,
+				CE91F0B115629062005C358F /* BJGridItem.m */,
 			);
 			path = ZakerLike;
 			sourceTree = "<group>";
@@ -96,6 +116,18 @@
 				CE91F07715623B2C005C358F /* ZakerLike-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE91F08615623C89005C358F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE68726E15634528008165CF /* deletbutton.png */,
+				CE91F08F15624C0C005C358F /* icon2.png */,
+				CE91F08D15624C07005C358F /* icon1.png */,
+				CE91F08915623DFA005C358F /* blueButton.jpg */,
+				CE91F08715623C89005C358F /* backgound.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +183,11 @@
 			files = (
 				CE91F07415623B2C005C358F /* InfoPlist.strings in Resources */,
 				CE91F08015623B2C005C358F /* BUPOViewController.xib in Resources */,
+				CE91F08815623C89005C358F /* backgound.jpg in Resources */,
+				CE91F08A15623DFA005C358F /* blueButton.jpg in Resources */,
+				CE91F08E15624C07005C358F /* icon1.png in Resources */,
+				CE91F09015624C0C005C358F /* icon2.png in Resources */,
+				CE68726F15634528008165CF /* deletbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +201,7 @@
 				CE91F07615623B2C005C358F /* main.m in Sources */,
 				CE91F07A15623B2C005C358F /* BUPOAppDelegate.m in Sources */,
 				CE91F07D15623B2C005C358F /* BUPOViewController.m in Sources */,
+				CE91F0B215629062005C358F /* BJGridItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +313,7 @@
 				CE91F08515623B2C005C358F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
